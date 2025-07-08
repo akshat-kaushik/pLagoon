@@ -84,12 +84,12 @@ void protocal()
     printf("Java == 1 ");
     printf("C == 2 ");
     printf("C++ == 3 ");
-    printf("css == 4 ");
+    printf("CSS == 4 ");
     printf("Header C == 5 ");
     printf("HTML == 6 ");
     printf("Javascript == 7 ");
     printf("JSON == 8 ");
-    printf("md == 9 ");
+    printf("Markdown == 9 ");
     printf("Python == 10 ");
     printf("Text == 11 ");
     printf("XML == 12 \nHere :");

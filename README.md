@@ -119,6 +119,8 @@ Total Lines of Code : 122 <$>
 ## Supported Extensions
 
 ```
+ __________________
+|      |           |
 | Mode | Extension |
 | ---- | --------- |
 | 0    | All       |
@@ -134,6 +136,7 @@ Total Lines of Code : 122 <$>
 | 10   | `.py`     |
 | 11   | `.txt`    |
 | 12   | `.xml`    |
+|______|___________|
 ```
 
 ## To-Do/Improvements
