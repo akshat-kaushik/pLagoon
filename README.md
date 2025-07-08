@@ -158,4 +158,8 @@ This project is licensed under the [MIT License](LICENSE).
 ## Author
 
 Akshat Kaushik
-GitHub: [@akshat-kaushik](https://github.com/akshat-kaushik)
+
+### Alive At
+
+- GitHub: [@akshat-kaushik](https://github.com/akshat-kaushik)
+- X: [@X](https://x.com/kaushk_akshat)
