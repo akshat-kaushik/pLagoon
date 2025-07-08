@@ -1,6 +1,6 @@
 # pLagoon 
 
-pLagoon is a simple, lightweight and efficient command-line tool that **recursively scans** the given directories and files which counts and return the **total number of lines of code**. Ideal for develops who want to know how much lines of code they have written in a **particular project** or a **particular programming language** also to track the **project complexity** or **code contribution**. It support filtering by various file extensions/type such as `.java`, `.c`, `.cpp`, `.css`, `.h`, `.html`, `.js`, `.json`, `.md`, `.py`, `.txt`, `.xml`.
+pLagoon is a simple, lightweight and efficient command-line tool built in C that **recursively scans** the given directories and files which counts and return the **total number of lines of code**. Ideal for develops who want to know how much lines of code they have written in a **particular project** or a **particular programming language** also to track the **project complexity** or **code contribution**. It support filtering by various file extensions/type such as `.java`, `.c`, `.cpp`, `.css`, `.h`, `.html`, `.js`, `.json`, `.md`, `.py`, `.txt`, `.xml`.
 
 ## Features
 
