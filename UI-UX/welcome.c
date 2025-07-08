@@ -83,7 +83,7 @@ void protocal()
     printf("For ALL == 0 ");
     printf("Java == 1 ");
     printf("C == 2 ");
-    printf("c++ == 3 ");
+    printf("C++ == 3 ");
     printf("css == 4 ");
     printf("Header C == 5 ");
     printf("HTML == 6 ");

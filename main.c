@@ -7,7 +7,8 @@ int main()
     welcome();
     char dirname[MAX];
     printf("ENTER PATH : ");
-    gets(dirname);
+    fgets(dirname,MAX,stdin);
+    dirname[strcspn(dirname, "\n")] = '\0';
     protocal();
     int nit;
     scanf("%d",&nit);
