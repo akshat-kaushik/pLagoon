@@ -69,7 +69,7 @@ void welcome()
     system("color 05");
     printf("\n");
     int i=0;
-    while(i<=150)
+    while(i<=1)
     {
         system("color 09");
         system("color 05");

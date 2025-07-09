@@ -6,85 +6,133 @@ char nightmare[MAX] = { 0 };
 int java(const char* ddname)
 {
     const char* joly = strrchr(ddname,'.');
-    int true = strcmp(joly,".java") == 0;
-    return true;
+    int true = 1;
+    if(joly !=NULL && strcmp(joly,".java") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int c(const char* dename)
 {
     const char* joly = strrchr(dename,'.');
-    int true = strcmp(joly,".c") == 0;
-    return true;
+    int true = 1;
+    if(joly !=NULL && strcmp(joly,".c") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int cpp(const char* dfname)
 {
     const char* joly = strrchr(dfname,'.');
-    int true = strcmp(joly,".cpp") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".cpp") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int py(const char* dgname)
 {
     const char* joly = strrchr(dgname,'.');
-    int true = strcmp(joly,".py") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".py") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int txt(const char* dhname)
 {
     const char* joly = strrchr(dhname,'.');
-    int true = strcmp(joly,".txt") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".txt") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int html(const char* diname)
 {
     const char* joly = strrchr(diname,'.');
-    int true = strcmp(joly,".html") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".html") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int css(const char* djname)
 {
     const char* joly = strrchr(djname,'.');
-    int true = strcmp(joly,".css") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".css") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int js(const char* dkname)
 {
     const char* joly = strrchr(dkname,'.');
-    int true = strcmp(joly,".js") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".js") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int h(const char* dlname)
 {
     const char* joly = strrchr(dlname,'.');
-    int true = strcmp(joly,".h") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".h") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int json(const char* dmname)
 {
     const char* joly = strrchr(dmname,'.');
-    int true = strcmp(joly,".json") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".json") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int xml(const char* dnname)
 {
     const char* joly = strrchr(dnname,'.');
-    int true = strcmp(joly,".xml") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".xml") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 int md(const char* doname)
 {
     const char* joly = strrchr(doname,'.');
-    int true = strcmp(joly,".md") == 0;
-    return true;
+    int true = 1;
+    if(joly != NULL && strcmp(joly,".md") == 0)
+    {
+        return true;
+    }
+    return 0;
 }
 
 void lister(const char* name,int logo)

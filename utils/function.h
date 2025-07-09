@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 #include<dirent.h>
-#define MAX 4096
+#define MAX 1024
 
 int java(const char* ddname);
 int c(const char* dename);

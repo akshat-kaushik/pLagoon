@@ -5,7 +5,7 @@
 int main()
 {
     welcome();
-    char dirname[MAX];
+    char dirname[MAX];    
     printf("ENTER PATH : ");
     fgets(dirname,MAX,stdin);
     dirname[strcspn(dirname, "\n")] = '\0';
